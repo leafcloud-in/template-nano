@@ -11,7 +11,7 @@ Fictional student demo based on the credited upstream project. Preserve the orig
 Keep sample identity fictional; replace `hello@example.com` and sample links before publishing. Do not add keys, analytics IDs, or comment credentials.
 
 ## Build and deploy
-Use pnpm (`pnpm-lock.yaml`): `pnpm install --frozen-lockfile`, `pnpm run build`, then `leaf deploy` here. Static Astro output is in `dist/`.
+Use pnpm 11: `pnpm install --frozen-lockfile`, `pnpm run build`, then `leaf deploy` here. Static Astro output is in `dist/`.
 
 ## Verify
 Check home, a content page, an asset, and a missing path. Avoid changing the design system or components.
