@@ -3,7 +3,7 @@ title: "Astro Sphere"
 description: "Portfolio and blog build with astro."
 date: "Mar 18 2024"
 demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/LEAFCLOUD_ORG/template-sphere"
+repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---
 
 ![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
@@ -15,10 +15,10 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 ## 🚀 Deploy your own
 
 <div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/LEAFCLOUD_ORG/template-sphere">
+  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
     <img src="/deploy_vercel.svg" />
   </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/LEAFCLOUD_ORG/template-sphere">
+  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere">
     <img src="/deploy_netlify.svg" />
   </a>
 </div>

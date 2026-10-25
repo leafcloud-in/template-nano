@@ -1,64 +1,58 @@
-![Astro Nano](_astro_nano.png)
+# Nano — portfolio template
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+A simple, personal page for your work and the links that matter.
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+![Preview of the Nano template](.github/preview.webp)
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/LEAFCLOUD_ORG/template-sphere)
+[Author's demo](https://astro-nano-demo.vercel.app) · [All templates](https://leafcloud.in/templates/)
 
-## 🚀 Deploy your own
+## Make it yours in one step
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/LEAFCLOUD_ORG/template-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LEAFCLOUD_ORG/template-nano)
+Paste this prompt into your coding agent:
 
-## 📋 Features
+```text
+Set up the LeafCloud "Nano" template for me: fetch https://leafcloud.in/templates/nano.md and follow it step by step.
+```
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
+Works with Claude Code, Codex, Cursor, or any coding agent. It asks a few questions, fills in your details, and puts the site online at `<your-name>.leafcloud.app`.
 
-## 💯 Lighthouse score
-![Astro Nano Lighthouse Score](_lighthouse.png)
+## Or do it yourself
 
-## 🕊️ Lightweight
-No frameworks or added bulk
+Choose **Use this template** on [GitHub](https://github.com/leafcloud-in/template-nano), or clone it:
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+```sh
+git clone https://github.com/leafcloud-in/template-nano.git
+cd template-nano
+pnpm install --frozen-lockfile
+pnpm run dev
+```
 
-## 📄 Configuration
+The dev server prints a local address in your terminal. Open that address in a browser and leave the server running while you edit.
 
-The blog posts on the demo serve as the documentation and configuration.
+Edit src/consts.ts, src/content/blog/, src/content/projects/, and src/content/work/. Keep the existing design and replace the fictional sample details with your own.
 
-## 💻 Commands
+Before publishing, make a production build:
 
-All commands are run from the root of the project, from a terminal:
+```sh
+pnpm run build
+```
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+When you are ready to publish, get LeafCloud access at [leafcloud.in](https://leafcloud.in) (join the waitlist or sign in), then install the CLI:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts local dev server on local network         |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Preview build on local network                   |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+```sh
+curl -fsSL https://leafcloud.in/install.sh | sh
+leaf init --name <your-site> --yes
+leaf deploy --yes
+```
 
-## 🏛️ License
+LeafCloud will publish the site at `https://<your-site>.leafcloud.app`.
 
-MIT
+The local preview is available at http://localhost:4321 for Astro templates or http://localhost:3000 for CV.
+
+## Changing it later
+
+Ask your agent: “add my new project and redeploy”. AGENTS.md tells it which files to update and how to build and publish again.
+
+## Credits
+
+Built on [markhorn-dev/astro-nano](https://github.com/markhorn-dev/astro-nano) by Mark Horn, under the MIT licence. The LICENSE file is unchanged. LeafCloud changes are listed in [LEAFCLOUD.md](LEAFCLOUD.md). The original project README is in [docs/UPSTREAM-README.md](docs/UPSTREAM-README.md).
