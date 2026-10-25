@@ -15,7 +15,7 @@ Customize the base site
 
 export const SITE: Site = {
   NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
+  EMAIL: "hello@example.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
@@ -54,15 +54,15 @@ Customize your social media
 export const SOCIALS: Socials = [
   { 
     NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
+    HREF: "https://twitter.com/asha_rao",
   },
   { 
     NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+    HREF: "https://github.com/asha-rao"
   },
   { 
     NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
+    HREF: "https://www.linkedin.com/in/asha-rao",
   }
 ];
 ```

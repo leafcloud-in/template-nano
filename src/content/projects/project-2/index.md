@@ -2,8 +2,8 @@
 title: "Astro Nano"
 description: "Minimal portfolio and blog build with astro and no frameworks."
 date: "Mar 26 2024"
-demoURL: "https://astro-nano-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-nano"
+demoURL: "https://tpl-nano.leafcloud.app"
+repoURL: "https://github.com/LEAFCLOUD_ORG/template-nano"
 ---
 
 ![Astro Nano](/astro-nano.png)
@@ -12,15 +12,15 @@ Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and bl
 
 Built with Astro, Tailwind and Typescript, an no frameworks.
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
+It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/LEAFCLOUD_ORG/template-sphere)
 
 ## 🚀 Deploy your own
 
 <div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano">
+  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/LEAFCLOUD_ORG/template-nano">
     <img src="/deploy_vercel.svg" />
   </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano">
+  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/LEAFCLOUD_ORG/template-nano">
     <img src="/deploy_netlify.svg" />
   </a>
 </div>

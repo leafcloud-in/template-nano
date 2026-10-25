@@ -4,11 +4,11 @@ Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and bl
 
 Built with Astro, Tailwind and Typescript, an no frameworks.
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
+It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/LEAFCLOUD_ORG/template-sphere)
 
 ## 🚀 Deploy your own
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano)
+[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/LEAFCLOUD_ORG/template-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LEAFCLOUD_ORG/template-nano)
 
 ## 📋 Features
 
