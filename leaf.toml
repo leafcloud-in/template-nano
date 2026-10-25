@@ -1,3 +1,0 @@
-site = "tpl-nano"
-dir = "dist"
-build = "pnpm run build"
